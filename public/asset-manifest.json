@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d6af38b2.css",
+    "main.js": "/static/js/main.680e197d.js",
+    "static/media/bell.png": "/static/media/bell.a5c27a8ef1e286ca0402.png",
+    "static/media/clicked-bell.png": "/static/media/clicked-bell.a6bcd7d29160324a918c.png",
+    "static/media/hector.png": "/static/media/hector.b847e19d5c15bef21be4.png",
+    "static/media/hector-bell.mp3": "/static/media/hector-bell.f1931f653051fda3f3a0.mp3",
+    "index.html": "/index.html",
+    "main.d6af38b2.css.map": "/static/css/main.d6af38b2.css.map",
+    "main.680e197d.js.map": "/static/js/main.680e197d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6af38b2.css",
+    "static/js/main.680e197d.js"
+  ]
+}

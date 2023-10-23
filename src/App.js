@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; // Importe um arquivo CSS para estilizar o layout, se necessário
+import './App.css'; 
 
 const App = () => {
   const [isPlaying, setIsPlaying] = useState(false);
