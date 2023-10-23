@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+/* Estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(127, 225, 255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estilos para o contêiner principal */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Estilos para o cabeçalho */
+.header {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilos para o logotipo */
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Estilos para o título */
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Estilos para a imagem central */
+.content img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Estilos para a imagem central quando clicada */
+.content img:active {
+  transform: scale(1.1);
+}
+
+/* Consultas de mídia para layout responsivo */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 }
